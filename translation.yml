@@ -8,11 +8,11 @@ components:
     scheme: 'apps-and-themes'
     owners: ['@Shopify/themes-translations']
     paths:
-      - locales/{{language}}.json
+      - theme/locales/{{language}}.json
   - name: merchant
     target_languages: [cs, da, de, es, fi, fr, it, ja, ko, nb, nl, pl, pt-BR, pt-PT, sv, th, tr, vi, zh-CN, zh-TW]
     audience: merchant
     scheme: 'apps-and-themes'
     owners: ['@Shopify/themes-translations']
     paths:
-      - locales/{{language}}.schema.json
+      - theme/locales/{{language}}.schema.json
